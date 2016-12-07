@@ -5,11 +5,15 @@
   "main": "index.js",
   "scripts": {
     "start": "mkdir -p tmp && node index.js",
+    "devel": "mkdir -p tmp && node_modules/.bin/nodemon index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Andrea Galbusera",
   "license": "ISC",
   "dependencies": {
     "ftpd": "^0.2.15"
+  },
+  "devDependencies": {
+    "nodemon": "^1.11.0"
   }
 }
