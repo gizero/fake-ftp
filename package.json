@@ -4,8 +4,12 @@
   "description": "POC for adding FTP functionalities to a non-filesystem based datastore",
   "main": "index.js",
   "scripts": {
+    "start": "mkdir -p tmp && node index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Andrea Galbusera",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "ftpd": "^0.2.15"
+  }
 }
