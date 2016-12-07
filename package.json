@@ -1,0 +1,11 @@
+{
+  "name": "fake-ftp",
+  "version": "1.0.0",
+  "description": "POC for adding FTP functionalities to a non-filesystem based datastore",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Andrea Galbusera",
+  "license": "ISC"
+}
